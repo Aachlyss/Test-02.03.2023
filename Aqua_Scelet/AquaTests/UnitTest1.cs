@@ -26,6 +26,7 @@ namespace AquaTests
             Aquarium aquarium = new Aquarium("Ball",100);
 
             Assert.AreEqual(100, aquarium.Capacity);
+            Assert.AreEqual("Ball", aquarium.Shape);
         }
         [Test]
         public void AddMethodShoudReduceAquariumCapacity()
